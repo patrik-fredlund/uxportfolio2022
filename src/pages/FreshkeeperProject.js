@@ -77,7 +77,7 @@ export const FreshkeeperProject = () => {
         <div className='uxProjectWrapperMethods'>
           <div className='uxProjectContainer'>
             <h1>Methods </h1>
-            <h3>For this task I have used the following methods</h3>
+            <h3>For this task I have used the following methods:</h3>
             <h3>Scrum</h3>
             <p>
               I have used the scrum method for the work process and worked in
@@ -94,15 +94,13 @@ export const FreshkeeperProject = () => {
             <h1>Tools</h1>
 
             <p>
-              <h3>target group analysis</h3>I have done a{' '}
-              <span className='bold'> target group analysis</span> in the form
-              of interviews and an survey. I will present this is a value
-              propostition canvas.
+              <h3>target group analysis</h3>I have done a target group analysis
+              in the form of interviews and an survey. I will present this is a{' '}
+              <span className='bold'>value propostition canvas.</span>
             </p>
             <p>
-              <h3>competitor analysis</h3>I have done a{' '}
-              <span className='bold'>competitor analysis</span> which will be
-              presented in a pains and gains list for the users
+              <h3>competitor analysis</h3>I have done a competitor analysis
+              which will be presented in a pains and gains list for the users
             </p>
             <h3>Ideation</h3>
             <p>
@@ -254,7 +252,7 @@ export const FreshkeeperProject = () => {
             <span className='bold'> Beep</span> and
             <span className='bold'> Fridgely </span> are the main competitors.{' '}
             <br />
-            To learn from them I decided to go directly to their users by
+            To learn more from them I decided to go directly to their users by
             reading the <span className='bold'>customer reviews</span> of those
             apps. In that way I could get insight in the users{' '}
             <span className='bold'>pains</span> and{' '}
@@ -340,10 +338,10 @@ export const FreshkeeperProject = () => {
           <div className='insightsContainer'>
             <h1>Easy to register date</h1>
             <p>
-              Scanning a food item don't work well, according to the competitor
-              analysis, so it's better to manually register items, but how? This
-              is the most important feature of the app so it needs to be easy
-              and quick to do.
+              Scanning the date of a food item don't work well, according to the
+              competitor analysis, so it's better to manually register items,
+              but how? This is the most important feature of the app so it needs
+              to be easy and quick to do.
             </p>
           </div>
           <div className='insightsContainer'>
@@ -636,6 +634,28 @@ export const FreshkeeperProject = () => {
         <hr />
         <h1 className='projectTitle'>Develop</h1>
         <hr />
+        <p className='ingressParagraph'>
+          So with the insights from the research and the definition of what that
+          meant it's time to develop the UI and create a clickable prototype.
+          First step was to create the design elements and decide fonts and
+          colors, according to the insights from the UX research.
+        </p>
+
+        <h1>Graphic Guidelines </h1>
+
+        <p className='ingressParagraph'>
+          And here are a part of the{' '}
+          <span className='bold'>graphic manual</span> with the choosen fonts
+          and colors of the App.
+        </p>
+        <img
+          className='functionsImg'
+          src={require('../Images/graphic_guidelines.jpg')}
+          alt='image of the freshkepper app'
+        />
+
+        <p className='imgText'> Screenshot of the graphic guidelines</p>
+        <h1>Prototpye </h1>
         <p className='subHeader'>
           Create a prototype of the Apps main userflow
         </p>
@@ -674,20 +694,18 @@ export const FreshkeeperProject = () => {
             alt='image of the freshkepper app'
           />
         </div>
+        <h1 className='demoTitle'>Demo of the main user flow </h1>
+
+        <video className='demo' width='300' height='auto' controls>
+          <source
+            src={require('../Images/Freshkeeper_demo.mp4')}
+            type='video/mp4'
+          />
+          Your browser does not support the video tag.
+        </video>
 
         <hr />
-        <p className='subHeader'>Graphic Guidelines</p>
-        <p className='ingressParagraph'>
-          And here are a part of the{' '}
-          <span className='bold'>graphic manual</span> with the choosen fonts
-          and colors of the App.
-        </p>
-        <img
-          className='functionsImg'
-          src={require('../Images/graphic_guidelines.jpg')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot of the graphic guidelines</p>
+
         <hr />
         <h1 className='projectTitle'>That's it!</h1>
         <hr />

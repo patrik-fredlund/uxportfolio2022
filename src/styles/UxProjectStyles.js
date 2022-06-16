@@ -73,6 +73,7 @@ export const UxProject = styled.div`
     justify-content: center;
     max-width: 1400px;
     min-height: 500px;
+    //background-color: #ff7eb9;
 
     //margin: 10px;
   }
@@ -152,6 +153,10 @@ export const UxProject = styled.div`
   .uxProjectContainer {
     margin: 10px;
     margin-left: 6 0px;
+
+    h3 {
+      font-weight: 600;
+    }
   }
   .uxProjectContainerMethod {
     margin: 10px;
@@ -201,7 +206,7 @@ export const UxProject = styled.div`
   .projectSubTitle {
     text-align: center;
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 30px;
     line-height: 50px;
@@ -520,5 +525,16 @@ export const UxProject = styled.div`
     display: flex;
     max-width: 300px;
     padding: 30px;
+  }
+
+  .demo {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border: 20px solid black;
+    border-radius: 50px;
+  }
+
+  .demoTitle {
+    text-align: center;
   }
 `;
