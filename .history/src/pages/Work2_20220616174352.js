@@ -43,10 +43,6 @@ export const Work2 = () => {
             <div className='card'>
               <h1>Aline Website</h1>
               <p>Coming soon</p>
-              <a href='./AlineProject'>
-                Check it out!
-                <FiArrowRight />
-              </a>
             </div>
           </div>
 

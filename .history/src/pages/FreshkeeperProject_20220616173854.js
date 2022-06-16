@@ -85,9 +85,9 @@ export const FreshkeeperProject = () => {
               Trello, in order to keep the project organized and structured in
               the best way possible.
             </p>
-            <h3>Double Diamond Method</h3>
+            <h3>Double Dimond Method</h3>
             <p>
-              For the UX analysis I have used the double Diamond method, to
+              For the UX analysis I have used the double Dimond method, to
               discover, define, develop and deploy the app in an strucured and
               effective way, to reach the best possible endproduct.
             </p>

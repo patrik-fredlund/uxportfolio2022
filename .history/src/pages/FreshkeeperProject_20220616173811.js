@@ -85,9 +85,9 @@ export const FreshkeeperProject = () => {
               Trello, in order to keep the project organized and structured in
               the best way possible.
             </p>
-            <h3>Double Diamond Method</h3>
+            <h3>Double Dimond Method</h3>
             <p>
-              For the UX analysis I have used the double Diamond method, to
+              For the UX analysis I have used the double Dimond method, to
               discover, define, develop and deploy the app in an strucured and
               effective way, to reach the best possible endproduct.
             </p>
@@ -546,7 +546,7 @@ export const FreshkeeperProject = () => {
           <span className='bold'>brainstorm session</span> and started with
           writting down words, feelings and things that can be assosiated with
           this subject, to build a tree of names and in the end the perfect name
-          will appear (hopefully) and blom, so to speak. If it's possible{' '}
+          will appear and blom, so to speak. If it's possible{' '}
           <span className='bold'>
             the name needs to tick all the boxes of the features of the App.
           </span>{' '}

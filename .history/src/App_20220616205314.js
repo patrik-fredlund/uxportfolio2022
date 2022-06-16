@@ -18,7 +18,6 @@ import { FreshkeeperProject } from './pages/FreshkeeperProject';
 import ScrollToTop from './components/ScrollToTop';
 import { Work } from './pages/Work';
 import { Work2 } from './pages/Work2';
-import { AlineProject } from './pages/AlineProject';
 
 const App = () => {
   const [isOpen, SetIsOpen] = useState(false);

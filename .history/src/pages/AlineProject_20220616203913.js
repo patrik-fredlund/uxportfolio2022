@@ -5,7 +5,7 @@ import { Wrapper } from '../styles/GlobalStyles';
 import { UxProject } from '../styles/UxProjectStyles';
 
 //This is the Freshkeeper project page. It's where I show the UX process of a school assignment. It's pretty much hardcoded content in order to show the whole UX process
-export const FreshkeeperProject = () => {
+export const AlineProject = () => {
   return (
     <Wrapper>
       <UxProject>
@@ -13,7 +13,7 @@ export const FreshkeeperProject = () => {
           <div className='headerProjectContainer'>
             <a href='./Work2'>Back</a>
 
-            <h1 className='headerTitle'>Freshkeeper</h1>
+            <h1 className='headerTitle'>Aline</h1>
             <p className='explainerText'>
               Freshkeeper is an App that{' '}
               <span className='bold'>
