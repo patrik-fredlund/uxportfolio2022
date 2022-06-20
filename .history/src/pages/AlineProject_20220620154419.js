@@ -39,7 +39,6 @@ export const AlineProject = () => {
         />
       </UxProject>
       <UxProject>
-        <h1 className='projectTitle'>Task And Mission</h1>
         <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
             <h1>Project brief</h1>
@@ -82,27 +81,7 @@ export const AlineProject = () => {
             </li>
           </div>
         </div> */}
-        <div className='uxProjectWrapperMethods'>
-          <div className='uxProjectContainer'>
-            <h1>Methods and Tools </h1>
-
-            <h3>Double Diamond Method</h3>
-            <p>
-              For the UX analysis I have used the double Diamond method, to
-              discover, define, develop and deploy the insights from the user
-              tests, in order to make the website more user friendly.
-            </p>
-
-            <p>
-              <h3>User test</h3>I have done remote user tests with the{' '}
-              <span className='bold'>lab usability testing method</span> where I
-              acted as moderator and interviewed 6 users, in order to obtain
-              live feedback. I gave them tasks, asked questions and collected
-              there pains and gains when interacting with the website.
-            </p>
-          </div>
-        </div>
-        <div className='uxProjectWrapperInter'>
+        <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
             <h1>Interviews </h1>
             <h2>The users</h2>
@@ -124,40 +103,104 @@ export const AlineProject = () => {
             <li>What do you think about the quiz?</li>
             <li>Who is this App for?</li>
             <li>Who is this website aimed at?</li>
-            <li>
-              Thru out the user test I let the test user speak freely in order
-              to find more hidden details <br /> and then ask them why in order
-              to get more deeper understanding of thier experinece.
-            </li>
 
             <h2>User test task</h2>
             <li>Download the app</li>
             <li>Do the quiz</li>
           </div>
         </div>
-        <h1 className='projectTitle'>Discover</h1>
-        <hr />
-        <p className='subHeader'>Part 1 - Research Aline</p>
-        <p className='ingressParagraph'>
-          The first part of the discovery research was for me to learn more
-          about Aline, there concept and vision, to get a better understanding
-          of what they need to communicate and to who. I talked to the
-          stakeholder and read all thier content in orwer to learn more about
-          thier message and what they wanted to say. With my new knowledge and
-          insights I started to create a user test for the website. I also
-          reserached the exixiting website before I did the test so I could get
-          a sence of the whole.
-        </p>
-        <div className='uxProjectWrapperYellow'>
+        {/*       <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
-            <p className='posItText'>
-              Approximately 19 kilos of edible food are thrown in the rubbish
-              and 26 kilos of food and drink are poured into the bin. The
-              figures apply per person and year.{' '}
-              <span className='bold'>
-                Much of the food is thrown away because it is not eaten in time.
-              </span>
+            <h1>User test task</h1>
+
+            <li>Download the app</li>
+            <li>Do the quiz</li>
+            <h1>User test Questions</h1>
+            <li>What is Aline?</li>
+            <li>Do the quiz</li>
+          </div>
+        </div> */}
+        <div className='uxProjectWrapperMethods'>
+          <div className='uxProjectContainer'>
+            <h1>Methods and Tools </h1>
+            <h3>For this task I have used the following methods:</h3>
+            <h3>Scrum</h3>
+            <p>
+              I have used the scrum method for the work process and worked in
+              sprints. I created a backlog and divided it up in a scrum board in
+              Trello, in order to keep the project organized and structured in
+              the best way possible.
             </p>
+            <h3>Double Diamond Method</h3>
+            <p>
+              For the UX analysis I have used the double Diamond method, to
+              discover, define, develop and deploy the app in an strucured and
+              effective way, to reach the best possible endproduct.
+            </p>
+            <h1>Tools</h1>
+
+            <p>
+              <h3>User test</h3>I have done remote user tests with the{' '}
+              <span className='bold'>lab usability testing method</span> where I
+              acted as moderator and interviewed 6 users, in order to obtain
+              live feedback. I gave them tasks, asked questions and collected
+              there pains and gains when interacting with the website.
+            </p>
+
+            <h3>Ideation</h3>
+          </div>
+        </div>
+        <h1>Sprints </h1>
+        <div className='uxProjectWrapperSprints'>
+          <div className='uxProjectContainerSprints'>
+            <div className='card'>
+              <h2>Sprint 1 - Week 1</h2>
+              <h2>Discover</h2>
+              <h3>Set up the environment</h3>
+
+              <li>Trello - scrum board</li>
+              <li>Write backlog</li>
+              <li>Figma sketches</li>
+
+              <h3>Explore ideas Workshop</h3>
+              <li>Research existing ideas</li>
+              <li>Define choosen idea</li>
+              <li>Research features for the App</li>
+              <li>Find the USP</li>
+              <h3>Research user and competiotion</h3>
+              <li>Target group analysis</li>
+              <li>Competitor analysis</li>
+            </div>
+            <div className='card'>
+              <h2>Sprint 2 - Week 2</h2>
+              <h2>Define</h2>
+
+              <h3>Define the research and insights</h3>
+              <li>Target group </li>
+              <li>Competition </li>
+              <li>Features </li>
+              <li>Prioritize the features for an MVP prototype </li>
+            </div>
+            <div className='card'>
+              <h2>Sprint 3 - Week 3</h2>
+              <h2>Design</h2>
+
+              <h3>Design</h3>
+              <li>Lo-fi scetches </li>
+              <li>Wireframes </li>
+              <li>Main user flow </li>
+              <li>Name workshop </li>
+              <li>Create logo </li>
+              <li>Choose fonts and colors </li>
+            </div>
+            <div className='card'>
+              <h2>Sprint 4 - Week 4</h2>
+              <h2>Deploy</h2>
+
+              <h3>Create Prototype</h3>
+
+              <li>Create clickable prototype </li>
+            </div>
           </div>
         </div>
       </UxProject>

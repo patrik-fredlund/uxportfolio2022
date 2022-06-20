@@ -39,7 +39,6 @@ export const AlineProject = () => {
         />
       </UxProject>
       <UxProject>
-        <h1 className='projectTitle'>Task And Mission</h1>
         <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
             <h1>Project brief</h1>
@@ -102,7 +101,7 @@ export const AlineProject = () => {
             </p>
           </div>
         </div>
-        <div className='uxProjectWrapperInter'>
+        <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
             <h1>Interviews </h1>
             <h2>The users</h2>
@@ -135,31 +134,17 @@ export const AlineProject = () => {
             <li>Do the quiz</li>
           </div>
         </div>
-        <h1 className='projectTitle'>Discover</h1>
-        <hr />
-        <p className='subHeader'>Part 1 - Research Aline</p>
-        <p className='ingressParagraph'>
-          The first part of the discovery research was for me to learn more
-          about Aline, there concept and vision, to get a better understanding
-          of what they need to communicate and to who. I talked to the
-          stakeholder and read all thier content in orwer to learn more about
-          thier message and what they wanted to say. With my new knowledge and
-          insights I started to create a user test for the website. I also
-          reserached the exixiting website before I did the test so I could get
-          a sence of the whole.
-        </p>
-        <div className='uxProjectWrapperYellow'>
+        {/*       <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
-            <p className='posItText'>
-              Approximately 19 kilos of edible food are thrown in the rubbish
-              and 26 kilos of food and drink are poured into the bin. The
-              figures apply per person and year.{' '}
-              <span className='bold'>
-                Much of the food is thrown away because it is not eaten in time.
-              </span>
-            </p>
+            <h1>User test task</h1>
+
+            <li>Download the app</li>
+            <li>Do the quiz</li>
+            <h1>User test Questions</h1>
+            <li>What is Aline?</li>
+            <li>Do the quiz</li>
           </div>
-        </div>
+        </div> */}
       </UxProject>
     </Wrapper>
   );

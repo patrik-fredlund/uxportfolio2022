@@ -18,44 +18,16 @@ export const UxProject = styled.div`
     padding: 20px;
     padding-bottom: 40px;
     margin: 10px;
-    margin-top: 30px;
+    margin-top: -30px;
     margin-bottom: 50px;
 
     li {
-      line-height: 40px;
-    }
-
-    h2 {
-      margin-top: 20px;
-      text-align: left;
+      line-height: 30px;
     }
   }
 
   @media screen and (max-width: 480px) {
     .uxProjectWrapper {
-      margin: 0;
-    }
-  }
-  .uxProjectWrapperInter {
-    background-color: #feff9c;
-    padding: 20px;
-    padding-bottom: 40px;
-    margin: 10px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-
-    li {
-      line-height: 40px;
-    }
-
-    h2 {
-      margin-top: 20px;
-      text-align: left;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperInter {
       margin: 0;
     }
   }
@@ -136,7 +108,7 @@ export const UxProject = styled.div`
     padding: 20px;
     padding-bottom: 40px;
     margin: 10px;
-    //margin-top: -30px;
+    margin-top: -30px;
     margin-bottom: 50px;
   }
 

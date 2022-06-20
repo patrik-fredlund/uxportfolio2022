@@ -39,7 +39,6 @@ export const AlineProject = () => {
         />
       </UxProject>
       <UxProject>
-        <h1 className='projectTitle'>Task And Mission</h1>
         <div className='uxProjectWrapper'>
           <div className='uxProjectContainer'>
             <h1>Project brief</h1>
@@ -133,20 +132,14 @@ export const AlineProject = () => {
             <h2>User test task</h2>
             <li>Download the app</li>
             <li>Do the quiz</li>
-          </div>
-        </div>
-        <h1 className='projectTitle'>Discover</h1>
+            <h1 className='projectTitle'>Discover</h1>
         <hr />
-        <p className='subHeader'>Part 1 - Research Aline</p>
+        <p className='subHeader'>Part 1 - Explore Ideas</p>
         <p className='ingressParagraph'>
-          The first part of the discovery research was for me to learn more
-          about Aline, there concept and vision, to get a better understanding
-          of what they need to communicate and to who. I talked to the
-          stakeholder and read all thier content in orwer to learn more about
-          thier message and what they wanted to say. With my new knowledge and
-          insights I started to create a user test for the website. I also
-          reserached the exixiting website before I did the test so I could get
-          a sence of the whole.
+          The first part of the discovery research was to choose a problem to
+          solve with food consumption. I decided to focus on{' '}
+          <span className='bold'>food waste </span> because according to the
+          Swedish National Food Administration:
         </p>
         <div className='uxProjectWrapperYellow'>
           <div className='uxProjectContainer'>
@@ -160,6 +153,18 @@ export const AlineProject = () => {
             </p>
           </div>
         </div>
+        
+        {/*       <div className='uxProjectWrapper'>
+          <div className='uxProjectContainer'>
+            <h1>User test task</h1>
+
+            <li>Download the app</li>
+            <li>Do the quiz</li>
+            <h1>User test Questions</h1>
+            <li>What is Aline?</li>
+            <li>Do the quiz</li>
+          </div>
+        </div> */}
       </UxProject>
     </Wrapper>
   );

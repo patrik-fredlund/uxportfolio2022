@@ -18,44 +18,12 @@ export const UxProject = styled.div`
     padding: 20px;
     padding-bottom: 40px;
     margin: 10px;
-    margin-top: 30px;
+    margin-top: -30px;
     margin-bottom: 50px;
-
-    li {
-      line-height: 40px;
-    }
-
-    h2 {
-      margin-top: 20px;
-      text-align: left;
-    }
   }
 
   @media screen and (max-width: 480px) {
     .uxProjectWrapper {
-      margin: 0;
-    }
-  }
-  .uxProjectWrapperInter {
-    background-color: #feff9c;
-    padding: 20px;
-    padding-bottom: 40px;
-    margin: 10px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-
-    li {
-      line-height: 40px;
-    }
-
-    h2 {
-      margin-top: 20px;
-      text-align: left;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperInter {
       margin: 0;
     }
   }
@@ -108,6 +76,10 @@ export const UxProject = styled.div`
     //background-color: #ff7eb9;
 
     //margin: 10px;
+
+    li {
+      text-align: left;
+    }
   }
 
   .card {
@@ -136,7 +108,7 @@ export const UxProject = styled.div`
     padding: 20px;
     padding-bottom: 40px;
     margin: 10px;
-    //margin-top: -30px;
+    margin-top: -30px;
     margin-bottom: 50px;
   }
 
@@ -188,10 +160,6 @@ export const UxProject = styled.div`
 
     h3 {
       font-weight: 600;
-    }
-
-    li {
-      text-align: left;
     }
   }
   .uxProjectContainerMethod {
@@ -572,13 +540,5 @@ export const UxProject = styled.div`
 
   .demoTitle {
     text-align: center;
-  }
-
-  .alineWebsite {
-    display: flex;
-    width: 75%;
-    max-width: 900px;
-    height: auto;
-    margin-top: 60px;
   }
 `;
