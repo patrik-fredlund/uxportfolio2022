@@ -47,8 +47,8 @@ export const AlineProject = () => {
               The objective with this user test is to{' '}
               <span className='bold'>identify areas of friction </span>
               that users face when they interact with the website, with focus on
-              the user journey, from first impression till call to action. This
-              will give us insights and clues of how to{' '}
+              the main user journey, from first impression till call to action.
+              This will give us insights and clues of how to{' '}
               <span className='bold'>make the website more user-friendly.</span>
             </p>
             <h1>Purpose of the website</h1>
@@ -224,8 +224,9 @@ export const AlineProject = () => {
           <p className='MiddleIngressParagraph'>
             I decided to use the{' '}
             <span className='bold'>lab usability testing method</span> and do a
-            live user test interview, to get a deeper understanding of the users
-            pains and gains when they interacted with the website.
+            live user test interview while the user, to get a deeper
+            understanding of thier pains, gains and recomendations when they
+            interacted with the website.
           </p>
         </div>
         <div className='competitorsContainer'>

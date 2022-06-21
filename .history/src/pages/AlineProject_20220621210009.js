@@ -47,8 +47,8 @@ export const AlineProject = () => {
               The objective with this user test is to{' '}
               <span className='bold'>identify areas of friction </span>
               that users face when they interact with the website, with focus on
-              the user journey, from first impression till call to action. This
-              will give us insights and clues of how to{' '}
+              the main user journey, from first impression till call to action.
+              This will give us insights and clues of how to{' '}
               <span className='bold'>make the website more user-friendly.</span>
             </p>
             <h1>Purpose of the website</h1>
@@ -178,7 +178,7 @@ export const AlineProject = () => {
               <h2>Define Feedback</h2>
               <h3>research the feedback</h3>
               <li>Analyse the data</li>
-              <li>Prioritize the data</li>
+              <li>prioritize the data</li>
               <li>Generate potential solution ideas</li>
             </div>
             <div className='card'>
@@ -214,7 +214,7 @@ export const AlineProject = () => {
               website needed a clearer message and to be more simple in its
               approach. Afer testing the website myself I agreed with her. I
               felt a user test would be a effective way to get valuble insight
-              from the target group.
+              from the target group. So I decided to do a user test.
             </p>
           </div>
         </div>
@@ -224,8 +224,8 @@ export const AlineProject = () => {
           <p className='MiddleIngressParagraph'>
             I decided to use the{' '}
             <span className='bold'>lab usability testing method</span> and do a
-            live user test interview, to get a deeper understanding of the users
-            pains and gains when they interacted with the website.
+            live user test and interview the user while they interacted with the
+            website to learn more from thier experience.
           </p>
         </div>
         <div className='competitorsContainer'>

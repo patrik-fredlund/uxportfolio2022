@@ -56,7 +56,7 @@ export const UxProject = styled.div`
 
   .liSmall {
     margin-left: 20px;
-    font-weight: 500;
+    font-size: 16px;
   }
 
   @media screen and (max-width: 480px) {
