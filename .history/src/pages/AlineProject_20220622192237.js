@@ -412,7 +412,7 @@ export const AlineProject = () => {
         <p className='MiddleIngressParagraph'>
           This is the new landingpage with a navigation menu, new Illustration
           and new slogan implemented to make the website more product centric,
-          user-friendly and straight to the point. I made the illustration.
+          user-friendly and straight to the point.
         </p>
         <img
           className='alineNew'

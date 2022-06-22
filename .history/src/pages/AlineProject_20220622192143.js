@@ -405,14 +405,14 @@ export const AlineProject = () => {
               to make the website more product-centric.
             </span>{' '}
             The original site was built in Squarespace so the changes was made
-            on that site.
+            of that site.
           </p>
         </div>
         <h1 className='altTitle'>Landingpage </h1>
         <p className='MiddleIngressParagraph'>
           This is the new landingpage with a navigation menu, new Illustration
           and new slogan implemented to make the website more product centric,
-          user-friendly and straight to the point. I made the illustration.
+          user-friendly and straight to the point.
         </p>
         <img
           className='alineNew'
@@ -423,7 +423,8 @@ export const AlineProject = () => {
         <p className='MiddleIngressParagraph'>
           Right now the call to action to download the App is removed because of
           maintenance of the App. Before that, there was a download link in the
-          main menu. Aline is still in the process of implementing all changes.
+          main menu. The website is still in the process of implementing all
+          changes.
         </p>
         <h1 className='projectTitle'>That's it!</h1>
         <hr />

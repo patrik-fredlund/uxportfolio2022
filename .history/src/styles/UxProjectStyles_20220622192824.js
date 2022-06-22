@@ -649,7 +649,7 @@ export const UxProject = styled.div`
   }
   @media screen and (max-width: 700px) {
     .alinePres {
-      max-width: 600px;
+      max-width: 500px;
     }
   }
   @media screen and (max-width: 480px) {

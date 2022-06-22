@@ -322,17 +322,13 @@ export const AlineProject = () => {
           <p className='MiddleIngressParagraph'>
             After collecting and analyzing all the data from the interviews I
             organized it into <span className='bold'>areas of friction</span> to
-            get a better understanding of the issues. Then I had an{' '}
-            <span className='bold'>
-              workshop to generate solution ideas for each area.
-            </span>{' '}
-            ideation
+            get a better understanding of the issues. Then I had an ideation
+            workshop to generate solution ideas for each area.
           </p>
         </div>
         <h1 className='altTitle'>Recomended solutions </h1>
         <p className='MiddleIngressParagraph'>
-          I sorted my recomendations within these{' '}
-          <span className='bold'>4 categories.</span>
+          I sorted my recomendations within these 4 categories.
         </p>
         <div className='uxProjectWrapperSprints'>
           <div className='uxProjectContainerSprints'>
@@ -341,8 +337,8 @@ export const AlineProject = () => {
               <h3>Page layout and parts.</h3>
 
               <h4>Solutions for user pains with the structure:</h4>
-              <li> Add navigation menu to the top. </li>
-              <li> features should be accessible from the landing-page.</li>
+              <li>Add navigation menu to the top. </li>
+              <li>All features should be accessible from the landing-page.</li>
               <li>
                 Add call to action to the top and always keep it visible.
                 Download-Link of the app.
@@ -395,24 +391,20 @@ export const AlineProject = () => {
           <h2 className='projectTitle'>Design</h2>
           <p className='MiddleIngressParagraph'>
             After the presentation the stakeholder and the rest of the team
-            <span className='bold'>agreed with my recommendations</span> and I
-            started to implement them to the Website. This is still an ongoing
-            process, but when I was stil an intern there I{' '}
-            <span className='bold'>focused on the prioritized issues,</span>{' '}
-            such as better navigation, more direct delivery of the concept and a
-            more on point first impression,{' '}
-            <span className='bold'>
-              to make the website more product-centric.
-            </span>{' '}
-            The original site was built in Squarespace so the changes was made
-            on that site.
+            agreed with my recommendations and I started to implement them to
+            the Website. This is still an ongoing process, but when I was stil
+            an intern there I focused on the prioritized issues, such as better
+            navigation, more direct delivery of the concept and a more on point
+            first impression, To make the website more product-centric. The
+            original site was built in Squarespace and the changes is a redsign
+            of that site.
           </p>
         </div>
         <h1 className='altTitle'>Landingpage </h1>
         <p className='MiddleIngressParagraph'>
           This is the new landingpage with a navigation menu, new Illustration
           and new slogan implemented to make the website more product centric,
-          user-friendly and straight to the point. I made the illustration.
+          user-friendly and straight to the point.
         </p>
         <img
           className='alineNew'
@@ -423,7 +415,8 @@ export const AlineProject = () => {
         <p className='MiddleIngressParagraph'>
           Right now the call to action to download the App is removed because of
           maintenance of the App. Before that, there was a download link in the
-          main menu. Aline is still in the process of implementing all changes.
+          main menu. The website is still in the process of implementing all
+          changes.
         </p>
         <h1 className='projectTitle'>That's it!</h1>
         <hr />

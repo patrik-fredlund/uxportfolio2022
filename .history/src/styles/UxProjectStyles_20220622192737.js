@@ -637,19 +637,19 @@ export const UxProject = styled.div`
       max-width: 900px;
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 9000px) {
     .alinePres {
       max-width: 800px;
     }
   }
   @media screen and (max-width: 800px) {
     .alinePres {
-      max-width: 700px;
+      max-width: 600px;
     }
   }
   @media screen and (max-width: 700px) {
     .alinePres {
-      max-width: 600px;
+      max-width: 500px;
     }
   }
   @media screen and (max-width: 480px) {

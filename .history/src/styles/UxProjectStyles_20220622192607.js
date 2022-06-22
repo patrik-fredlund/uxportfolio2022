@@ -624,32 +624,17 @@ export const UxProject = styled.div`
 
   @media screen and (max-width: 1200px) {
     .alinePres {
-      max-width: 1100px;
-    }
-  }
-  @media screen and (max-width: 1100px) {
-    .alinePres {
-      max-width: 1000px;
-    }
-  }
-  @media screen and (max-width: 1000px) {
-    .alinePres {
-      max-width: 900px;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    .alinePres {
-      max-width: 800px;
+      max-width: 500px;
     }
   }
   @media screen and (max-width: 800px) {
     .alinePres {
-      max-width: 700px;
+      max-width: 600px;
     }
   }
   @media screen and (max-width: 700px) {
     .alinePres {
-      max-width: 600px;
+      max-width: 500px;
     }
   }
   @media screen and (max-width: 480px) {
